@@ -1,0 +1,104 @@
+@charset "utf-8";
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #AB8383;
+    -webkit-transition: all 1s ease-in-out 1s;
+    -o-transition: all 1s ease-in-out 1s;
+    transition: all 1s ease-in-out 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.box1:hover{
+    transform: scale(2);
+    -webkit-box-shadow: 3px 6px 5px -1px #716D6D;
+    box-shadow: 3px 6px 5px -1px #716D6D;
+	}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #637996;
+    -webkit-transition: all 1s ease-in-out 1s;
+    -o-transition: all 1s ease-in-out 1s;
+    transition: all 1s ease-in-out 1s;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+}
+.box2:hover{
+    transform: rotate(50deg);
+    -webkit-box-shadow: 3px 6px 5px -1px #949292;
+    box-shadow: 3px 6px 5px -1px #949292;
+	}
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: #BFAD87;
+    -webkit-transition: all 1s ease-in-out 1s;
+    -o-transition: all 1s ease-in-out 1s;
+    transition: all 1s ease-in-out 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.box3:hover{
+    transform: translate(30px);
+    -webkit-box-shadow: 3px 6px 5px -1px #9C9A9A;
+    box-shadow: 3px 6px 5px -1px #9C9A9A;
+	}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E6D7BE;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+}
+h1 {
+    background-color: #D5BF9A;
+    margin-bottom: 8px;
+    margin-top: -5px;
+    color: #362710;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box1:hover {
+    background-color: #573131;
+}
+.box2:hover {
+    background-color: #274353;
+}
+.box3:hover {
+    background-color: #816E41;
+    -webkit-transform: translate(30px);
+    -o-transform: translate(30px);
+}
+.col1 {
+    margin-bottom: 0px;
+    margin-top: 133px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: -71px;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+.col2 {
+    margin-left: 25px;
+    margin-right: -83px;
+    margin-top: 133px;
+    font-weight: bolder;
+}
+.col3 {
+    margin-top: 133px;
+    margin-left: 13px;
+    margin-right: -91px;
+    font-weight: bolder;
+}
